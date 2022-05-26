@@ -1,0 +1,9 @@
+//Aceder a datos del array por notación de corchetes
+const myArray = [50, 60, 70];
+console.log(myArray[0]);
+const myData = myArray[0];
+//Agregar datos al array por por notación de corchetes
+const arr2 = [];
+arr2[0] = '12';
+arr2[1] = 12;
+console.log(arr2);

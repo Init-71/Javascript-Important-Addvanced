@@ -1,0 +1,9 @@
+// Configuración
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+//.unshift() funciona exactamente como .push(), pero en lugar de añadir el elemento al final del arreglo, unshift() añade el elemento al principio del arreglo.
+
+// Cambia solo el código debajo de esta línea
+myArray.unshift(["Paul", 35])
+console.log(myArray);
